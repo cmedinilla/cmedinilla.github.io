@@ -1,149 +1,183 @@
-const Resume = () => {
+export default function resume() {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-      {/* Header Section */}
-      <header className="text-center border-b pb-6 mb-6">
-        <h1 className="text-4xl font-bold text-gray-800">Christian Medinilla</h1>
-        <p className="text-lg text-gray-600">Full Stack Developer</p>
-        <div className="flex justify-center space-x-6 mt-4">
-          <a href="https://medinilla.is-a.dev" className="text-blue-500 hover:underline">
-            medinilla.is-a.dev
-          </a>
-          <a href="https://github.com/ronanru" className="text-blue-500 hover:underline">
-            github.com/cmedinilla
-          </a>
-          <a href="mailto:cu.medinilla@gmail.com" className="text-blue-500 hover:underline">
-            cu.medinilla@gmail.com
-          </a>
+    <div className="max-w-4xl mx-auto bg-white text-gray-800 shadow-lg rounded-2xl p-8 print:p-0 print:shadow-none">
+      {/* Header */}
+      <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-0 mb-6">
+        <div>
+          <h1 className="text-4xl font-extrabold tracking-wide">CHRISTIAN</h1>
+          <h2 className="text-2xl font-semibold text-gray-600">MEDINILLA</h2>
+          <p className="mt-2 font-medium text-indigo-700">Software Engineer</p>
+        </div>
+
+        <div className="text-sm text-gray-600 md:text-right">
+          <p>Guadalajara, Mexico</p>
+          <p className="mt-1">cu.medinilla@gmail.com</p>
+          <p className="mt-1">+52 3317780414</p>
         </div>
       </header>
 
-      {/* Technical Skills Section */}
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold text-gray-800 border-b pb-2 mb-4">
-          Technical Skills
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <h3 className="font-semibold text-gray-700">Programming Languages:</h3>
-            <p className="text-gray-600">JavaScript, C#, NodeJS, Ruby, Typescript</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-gray-700">Frontend Development:</h3>
-            <p className="text-gray-600">
-              React, Angular, Tailwind CSS
+      <main className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Left column (main content) */}
+        <section className="md:col-span-2">
+          {/* Profile */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold border-b pb-1">Profile</h3>
+            <p className="mt-3 text-sm leading-relaxed">
+              Experienced Software Developer adept in bringing forth expertise in design,
+              installation, testing and maintenance of software systems. Proficient in
+              various platforms, languages, and front end frameworks. Experienced with the
+              latest cutting edge development tools and procedures. Adept in making key
+              decisions and working with other professionals to achieve goals and solve
+              problems. Experienced in managing employee and dedicated to successfully directing
+              business operations.
             </p>
           </div>
-          <div>
-            <h3 className="font-semibold text-gray-700">Agile:</h3>
-            <p className="text-gray-600">
-              Srum, Kanban, Agile Methodologies
-            </p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-gray-700">Other Technologies:</h3>
-            <p className="text-gray-600">Docker, Git, SQL, AWS, Lamdba, Azure, GCP</p>
-          </div>
-        </div>
-      </section>
 
-      {/* Work Experience Section */}
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold text-gray-800 border-b pb-2 mb-4">
-          Work Experience
-        </h2>
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">
-              Practice Director
-            </h3>
-            <p className="text-sm text-gray-500">Apex Systems | 2022 - Present </p>
-            <p className="text-gray-600">
-              Head of Front-End Practice Area Led the entire Front-End practice within the organization, managing a large organizational structure that included 3+ managers and 6 supervisors. Responsible for overseeing operations, driving technical excellence, and ensuring alignment with client expectations. Key responsibilities included: Handling client escalations and contributing to pre-sales and new business development. Collaborating with Talent Acquisition for hiring strategies and recruiting top-tier front-end professionals. Providing coaching and professional development for leaders and teams within the practice. Partnering with Delivery Management to ensure optimal resource allocation and staff planning across multiple projects. Played a strategic role in building and scaling a high-performing front-end organization, fostering a culture of continuous improvement and collaboration.
-            </p>
+          {/* Employment history */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold border-b pb-1">Employment History</h3>
+            <ul className="mt-3 space-y-4">
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Staff Engineer, Global Logic</p>
+                    <p className="text-sm text-gray-600">July 2025 — Present</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Front End Engineer, Neighborbrite (Freelance)</p>
+                    <p className="text-sm text-gray-600">May 2025 — August 2025</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Practice Director, Apex Systems</p>
+                    <p className="text-sm text-gray-600">January 2022 — July 2025</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Tech manager, Apex Systems</p>
+                    <p className="text-sm text-gray-600">November 2020 — December 2021</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Tech Lead, Apex Systems</p>
+                    <p className="text-sm text-gray-600">January 2020 — December 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Tech Lead, Intersys Inc.</p>
+                    <p className="text-sm text-gray-600">April 2019 — December 2019</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Sr. Full Stack Developer, Intersys Inc.</p>
+                    <p className="text-sm text-gray-600">August 2017 — March 2019</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Sr. Developer, DXC Technology</p>
+                    <p className="text-sm text-gray-600">April 2017 — July 2017</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Specialist Software Engineer, Hewlett Packard Enterprise</p>
+                    <p className="text-sm text-gray-600">April 2016 — March 2017</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">.Net Software Developer, Softtek</p>
+                    <p className="text-sm text-gray-600">October 2013 — April 2016</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="font-semibold">Developer, Integracorp & H Consulting</p>
+                    <p className="text-sm text-gray-600">June 2012 — October 2013</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">Tech Manager</h3>
-            <p className="text-sm text-gray-500">Apex Systems | 2020 - 2022</p>
-            <p className="text-gray-600">
-              Front End Tech Manager – E-Commerce & Talent Development Managed a team of 15 front-end consultants, overseeing their performance, career development, and allocation across projects. Led the interviewing and hiring process to ensure technical excellence and cultural fit. Directed a technical team of 5 developers on a high-impact E-Commerce project, working with a modern tech stack including Ruby (back-end) and React (front-end), ensuring timely delivery and code quality. Additionally, led the New Graduates Program for the front-end area, coordinating the selection, onboarding, technical training, and placement of newly hired consultants. Acted as a key player in nurturing early career talent and integrating them into client projects successfully.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">Technical Lead</h3>
-            <p className="text-sm text-gray-500">Apex Systems | 2020 - 2020</p>
-            <p className="text-gray-600">
-              Fullstack Technical Lead Directed a technical team of 5 developers on a high-impact E-Commerce project, working with a modern tech stack including Ruby (back-end) and React (front-end), ensuring timely delivery and code quality.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">Senior Full Stack Developer</h3>
-            <p className="text-sm text-gray-500">Intersys Consulting Inc | 2019 - 2020</p>
-            <p className="text-gray-600">
-              Front-End Developer – Angular & React Multi-Industry Project Experience Worked as a Front-End Developer across various industries, including E-Commerce, Building Security, and Healthcare. Utilized Angular and React frameworks to develop and maintain responsive, user-friendly web applications. Collaborated with cross-functional teams to translate business requirements into technical solutions, ensuring optimal performance and user experience.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">Specialist Software Developer</h3>
-            <p className="text-sm text-gray-500">Hewlett-Packard Enterprise | 2017 - 2017</p>
-            <p className="text-gray-600">
-              .NET & Angular Developer – Application Lifecycle Management (ALM) Tools Internal Systems & DevOps Enablement Served as a full-stack developer specializing in .NET and Angular to enhance internal Application Lifecycle Management (ALM) systems. Focused on improving development workflows, deployment automation, and system integration to support the organization's software development processes.​Additionally, participated in a cross-functional Tiger Team dedicated to the strategic implementation of GitHub Enterprise across the company. Contributed to the design and execution of version control strategies, CI/CD pipelines, and developer onboarding processes, facilitating a seamless transition to modern DevOps practices.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">Senior Full Stack Developer</h3>
-            <p className="text-sm text-gray-500">Softtek | 2013 - 2017</p>
-            <p className="text-gray-600">
-            .NET Developer – Legal Data Archiving Project Consultant for Technology Firm Engaged as a .NET Developer consultant for a technology company, focusing on the development of a secure legal data archiving system. Responsibilities included designing and implementing robust backend solutions to ensure data integrity, compliance with legal standards, and efficient retrieval processes. Collaborated closely with cross-functional teams to translate complex legal requirements into technical specifications, delivering a reliable and scalable application tailored to client needs.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">Senior Full Stack Developer</h3>
-            <p className="text-sm text-gray-500">Integracorp and H consulting | 2012 - 2013</p>
-            <p className="text-gray-600">
-            Assigned Consultant at a Manufacturing Company Worked as a consultant and software developer for the company’s proprietary ERP system, supporting and enhancing multiple modules including Accounting, Inventory, and Invoicing. Responsibilities included analyzing business requirements, implementing new features, and maintaining existing functionalities to ensure operational efficiency. Technologies used included Genexus, Visual Basic 6.0, and .NET frameworks. Collaborated closely with cross-functional teams to align system development with business processes, contributing to the continuous improvement of the company’s internal tools.
-            </p>
-          </div>
-        </div>
-      </section>
 
-      {/* Open-Source Projects Section */}
-      {/* <section>
-        <h2 className="text-2xl font-semibold text-gray-800 border-b pb-2 mb-4">
-          Open-Source Projects
-        </h2>
-        <ul className="space-y-3">
-          <li>
-            <a
-              href="https://github.com/ronix"
-              className="text-blue-500 hover:underline font-semibold"
-            >
-              Ronix
-            </a>
-            <span className="text-gray-600"> - Linux music player and library manager</span>
-          </li>
-          <li>
-            <a
-              href="https://github.com/faq"
-              className="text-blue-500 hover:underline font-semibold"
-            >
-              My FAQ Page
-            </a>
-            <span className="text-gray-600"> - An FAQ Page generator web app</span>
-          </li>
-          <li>
-            <a
-              href="https://github.com/unopack"
-              className="text-blue-500 hover:underline font-semibold"
-            >
-              UnoPack
-            </a>
-            <span className="text-gray-600"> - Minecraft modpack bundler</span>
-          </li>
-        </ul>
-      </section> */}
+          {/* Education */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold border-b pb-1">Education</h3>
+            <p className="mt-3 font-medium">Systems Engineering, UNID</p>
+            <p className="text-sm text-gray-600">August 2006 — August 2010</p>
+          </div>
+        </section>
+
+        {/* Right column (sidebar) */}
+        <aside className="md:col-span-1 bg-gray-50 p-4 rounded-lg">
+          {/* Links */}
+          <div className="mb-4">
+            <h4 className="font-semibold text-sm">Links</h4>
+            <ul className="mt-2 text-sm text-indigo-700 space-y-1">
+              <li><a href="#">Github</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="mailto:cu.medinilla@gmail.com">cu.medinilla@gmail.com</a></li>
+            </ul>
+          </div>
+
+          {/* Skills */}
+          <div className="mb-4">
+            <h4 className="font-semibold text-sm">Skills</h4>
+            <div className="mt-2 grid grid-cols-2 gap-2 text-sm">
+              <span className="inline-block">Decision Making</span>
+              <span className="inline-block">Teamwork</span>
+              <span className="inline-block">Management</span>
+              <span className="inline-block">Git</span>
+              <span className="inline-block">React</span>
+              <span className="inline-block">AngularJS</span>
+              <span className="inline-block">Ruby</span>
+              <span className="inline-block">Problem Solving</span>
+              <span className="inline-block">Leadership</span>
+              <span className="inline-block">Front End</span>
+              <span className="inline-block">Software Architecture</span>
+              <span className="inline-block">NodeJS</span>
+              <span className="inline-block">Javascript</span>
+            </div>
+          </div>
+
+          {/* Languages */}
+          <div>
+            <h4 className="font-semibold text-sm">Languages</h4>
+            <ul className="mt-2 text-sm">
+              <li>English</li>
+              <li>Spanish</li>
+            </ul>
+          </div>
+        </aside>
+      </main>
     </div>
   );
-};
-
-export default Resume;
+}
