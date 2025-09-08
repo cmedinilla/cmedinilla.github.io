@@ -1,0 +1,105 @@
+{
+  "name": "Christian Medinilla",
+  "title": "Software Engineer",
+  "location": "Guadalajara, Mexico",
+  "email": "cu.medinilla@gmail.com",
+  "phone": "+52 3317780414",
+  "profile": "Experienced Software Developer adept in bringing forth expertise in design, installation, testing and maintenance of software systems. Proficient in various platforms, languages, and front end frameworks. Experienced with the latest cutting edge development tools and procedures. Adept in making key decisions and working with other professionals to achieve goals and solve problems. Experienced in managing employee and dedicated to successfully directing business operations.",
+  "employmentHistory": [
+    {
+      "position": "Staff Engineer",
+      "company": "Global Logic",
+      "date": "July 2025 — Present"
+    },
+    {
+      "position": "Front End Engineer",
+      "company": "Neighborbrite (Freelance)",
+      "date": "May 2025 — August 2025"
+    },
+    {
+      "position": "Practice Director",
+      "company": "Apex Systems",
+      "date": "January 2022 — July 2025"
+    },
+    {
+      "position": "Tech manager",
+      "company": "Apex Systems",
+      "date": "November 2020 — December 2021"
+    },
+    {
+      "position": "Tech Lead",
+      "company": "Apex Systems",
+      "date": "January 2020 — December 2020"
+    },
+    {
+      "position": "Tech Lead",
+      "company": "Intersys Inc.",
+      "date": "April 2019 — December 2019"
+    },
+    {
+      "position": "Sr. Full Stack Developer",
+      "company": "Intersys Inc.",
+      "date": "August 2017 — March 2019"
+    },
+    {
+      "position": "Sr. Developer",
+      "company": "DXC Technology",
+      "date": "April 2017 — July 2017"
+    },
+    {
+      "position": "Specialist Software Engineer",
+      "company": "Hewlett Packard Enterprise",
+      "date": "April 2016 — March 2017"
+    },
+    {
+      "position": ".Net Software Developer",
+      "company": "Softtek",
+      "date": "October 2013 — April 2016"
+    },
+    {
+      "position": "Developer",
+      "company": "Integracorp & H Consulting",
+      "date": "June 2012 — October 2013"
+    }
+  ],
+  "education": {
+    "degree": "Systems Engineering",
+    "institution": "UNID",
+    "date": "August 2006 — August 2010"
+  },
+  "skills": [
+    "Decision Making",
+    "Teamwork",
+    "People Management",
+    "Git",
+    "React",
+    "AngularJS",
+    "TypeScript",
+    "JavaScript",
+    "C#",
+    ".Net Core",
+    "SQL Server",
+    "Rub",
+    "NodeJS",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Software architecture",
+    "Microservices",
+    "Leadership"
+  ],
+  "links": [
+    {
+      "label": "Github",
+      "url": "https://github.com/cmedinilla"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/medinilla/"
+    },
+    {
+      "label": "cu.medinilla@gmail.com",
+      "url": "mailto:cu.medinilla@gmail.com"
+    }
+  ]
+}
