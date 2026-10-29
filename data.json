@@ -1,65 +1,131 @@
 {
   "name": "Christian Medinilla",
-  "title": "Software Engineer",
+  "title": "Software Engineer & Engineering Leader",
   "location": "Guadalajara, Mexico",
   "email": "cu.medinilla@gmail.com",
   "phone": "+52 3317780414",
-  "profile": "Experienced Software Developer adept in bringing forth expertise in design, installation, testing and maintenance of software systems. Proficient in various platforms, languages, and front end frameworks. Experienced with the latest cutting edge development tools and procedures. Adept in making key decisions and working with other professionals to achieve goals and solve problems. Experienced in managing employee and dedicated to successfully directing business operations.",
+  "profile": "Software engineer and engineering leader with 14 years of experience, growing from .NET developer to Practice Director and now Staff Engineer. I combine hands-on full stack development (React, TypeScript, Node.js, C#/.NET Core, SQL Server, AWS and Azure) with technical design, architecture and ownership of code quality. Experienced managing managers, tech leads and engineers, owning delivery on client accounts, and acting as the bridge between technical and business stakeholders on both the company and client side. Built and led a graduate program covering candidate selection, hiring and a 6-month training path into client projects.",
   "employmentHistory": [
     {
       "position": "Staff Engineer",
       "company": "Global Logic",
-      "date": "July 2025 — Present"
+      "date": "July 2025 — Present",
+      "responsibilities": [
+        "Stakeholder Management: Hold regular meetings with stakeholders to define the roadmap, prioritize upcoming epics and negotiate delivery dates.",
+        "Delivery Tracking: Monitor development velocity to ensure milestones are met on time, and assess and mitigate potential risks.",
+        "Technical Quality: Ensure code quality by reviewing Pull Requests and verifying that the corresponding tests are executed.",
+        "QA Coordination: Keep constant communication with the QA team to review test plans and address identified risks.",
+        "Team Leadership: Run 1:1 sessions to follow up on team well-being and remove blockers preventing progress on their tasks.",
+        "Management Collaboration: Work closely with the Project Manager to track the board, identify lagging tasks and take part in team ceremonies.",
+        "Hands-on Development: Take on and resolve technical tasks directly as part of the development team."
+      ]
     },
     {
       "position": "Front End Engineer",
       "company": "Neighborbrite (Freelance)",
-      "date": "May 2025 — August 2025"
+      "date": "May 2025 — August 2025",
+      "responsibilities": [
+        "Technical Design: Created technical designs for new features, defining component architecture, data flow and API integration before implementation.",
+        "Proofs of Concept: Built POCs to validate the feasibility of new features and evaluate libraries and approaches before committing to development.",
+        "UI Development: Built and maintained responsive user interfaces with React and TypeScript.",
+        "Component Library: Translated designs into reusable components and integrated them with REST APIs.",
+        "Performance & Accessibility: Improved page performance and accessibility of the web application."
+      ]
     },
     {
       "position": "Practice Director",
       "company": "Apex Systems",
-      "date": "January 2022 — July 2025"
+      "date": "January 2022 — July 2025",
+      "responsibilities": [
+        "Practice Leadership: Led the software development practice, overseeing multiple delivery teams and client accounts.",
+        "People Management: Managed managers, tech leads and engineers, owning hiring, career development and performance reviews.",
+        "Graduate Program: Led the new graduate program, owning candidate selection, hiring and a 6-month training curriculum that prepared freshers to be deployed to client projects.",
+        "Talent Land: Led Apex's participation in Talent Land, managing the company's brand booth and driving recruiting efforts at the event.",
+        "Client Liaison: Acted as the bridge between technical and non-technical stakeholders at Apex and the client, translating business needs into technical plans and communicating progress and risks.",
+        "Delivery Ownership: Was accountable for delivery on key client accounts, ensuring scope, timelines and quality commitments were met.",
+        "Processes & Standards: Defined delivery processes and technical standards across teams.",
+        "Pre-sales Support: Supported pre-sales with solution design and estimates."
+      ]
     },
     {
-      "position": "Tech manager",
+      "position": "Tech Manager",
       "company": "Apex Systems",
-      "date": "November 2020 — December 2021"
+      "date": "November 2020 — December 2021",
+      "responsibilities": [
+        "People Management: Managed a staff of engineers deployed across different client projects, acting as their people manager for career growth, performance and well-being.",
+        "Team Management: Managed engineering teams delivering web applications and services for clients.",
+        "Delivery Coordination: Coordinated planning, sprint execution and stakeholder communication.",
+        "Technical Support: Removed technical blockers and ensured code quality through reviews and best practices."
+      ]
     },
     {
       "position": "Tech Lead",
       "company": "Apex Systems",
-      "date": "January 2020 — December 2020"
+      "date": "January 2020 — December 2020",
+      "responsibilities": [
+        "Technical Design: Met with client stakeholders and third-party vendors to define the technical design of implementations, aligning requirements, integrations and constraints.",
+        "Team Leadership: Led a development team, owning technical design and task breakdown.",
+        "Full Stack Development: Built features across the stack with React, Node.js and .NET Core.",
+        "Code Quality & Mentoring: Performed code reviews and coached developers on architecture and good practices."
+      ]
     },
     {
       "position": "Tech Lead",
       "company": "Intersys Inc.",
-      "date": "April 2019 — December 2019"
+      "date": "April 2019 — December 2019",
+      "responsibilities": [
+        "Led the development team and acted as the main technical contact with the client.",
+        "Designed solution architecture and drove sprint planning and estimates.",
+        "Reviewed code and kept the team aligned on standards and delivery dates."
+      ]
     },
     {
       "position": "Sr. Full Stack Developer",
       "company": "Intersys Inc.",
-      "date": "August 2017 — March 2019"
+      "date": "August 2017 — March 2019",
+      "responsibilities": [
+        "Developed full stack features with AngularJS/React, Node.js, C# and SQL Server.",
+        "Designed and consumed REST APIs and integrated third-party services.",
+        "Wrote unit tests and fixed production issues."
+      ]
     },
     {
       "position": "Sr. Developer",
       "company": "DXC Technology",
-      "date": "April 2017 — July 2017"
+      "date": "April 2017 — July 2017",
+      "responsibilities": [
+        "Developed and maintained enterprise applications in C# and .NET.",
+        "Analyzed requirements and implemented enhancements and bug fixes."
+      ]
     },
     {
       "position": "Specialist Software Engineer",
       "company": "Hewlett Packard Enterprise",
-      "date": "April 2016 — March 2017"
+      "date": "April 2016 — March 2017",
+      "responsibilities": [
+        "Developed and supported enterprise applications on .NET and SQL Server.",
+        "Optimized database queries and stored procedures.",
+        "Collaborated with QA and business analysts to deliver releases."
+      ]
     },
     {
       "position": ".Net Software Developer",
       "company": "Softtek",
-      "date": "October 2013 — April 2016"
+      "date": "October 2013 — April 2016",
+      "responsibilities": [
+        "Built web applications and services with C#, ASP.NET and SQL Server.",
+        "Implemented new features and maintained existing systems for clients.",
+        "Took part in requirements analysis, testing and deployments."
+      ]
     },
     {
       "position": "Developer",
       "company": "Integracorp & H Consulting",
-      "date": "June 2012 — October 2013"
+      "date": "June 2012 — October 2013",
+      "responsibilities": [
+        "Developed and maintained business applications and databases.",
+        "Worked with users to gather requirements and provide support."
+      ]
     }
   ],
   "education": {
@@ -68,25 +134,40 @@
     "date": "August 2006 — August 2010"
   },
   "skills": [
+    "Leadership",
+    "People Management",
+    "Stakeholder Management",
+    "Client Relationship",
+    "Delivery Management",
+    "Risk Management",
+    "Roadmap Planning",
+    "Agile / Scrum",
+    "Pre-sales & Estimation",
+    "Vendor Coordination",
+    "Mentoring",
+    "Talent Acquisition",
+    "Training Programs",
     "Decision Making",
     "Teamwork",
-    "People Management",
-    "Git",
+    "Technical Design",
+    "Software architecture",
+    "Microservices",
+    "Proofs of Concept",
+    "Code Review",
+    "QA Collaboration",
     "React",
     "AngularJS",
     "TypeScript",
     "JavaScript",
+    "NodeJS",
     "C#",
     ".Net Core",
     "SQL Server",
-    "Rub",
-    "NodeJS",
+    "Ruby",
     "AWS",
     "Azure",
     "Docker",
-    "Software architecture",
-    "Microservices",
-    "Leadership"
+    "Git"
   ],
   "links": [
     {

@@ -39,7 +39,7 @@ function ResumeContent({ data }) {
             </h3>
             <ul className="mt-3 space-y-4">
               {data.employmentHistory.map((job, index) => (
-                <li key={index}>
+                <li key={index} className="break-inside-avoid">
                   <div className="flex justify-between items-start">
                     <div>
                       <p className="font-semibold">
@@ -48,6 +48,25 @@ function ResumeContent({ data }) {
                       <p className="text-sm text-gray-600">{job.date}</p>
                     </div>
                   </div>
+                  {job.responsibilities?.length > 0 && (
+                    <ul className="mt-2 list-disc pl-5 space-y-1 text-sm leading-relaxed">
+                      {job.responsibilities.map((item, i) => {
+                        const [label, ...rest] = item.split(": ");
+                        return (
+                          <li key={i}>
+                            {rest.length > 0 ? (
+                              <>
+                                <span className="font-semibold">{label}:</span>{" "}
+                                {rest.join(": ")}
+                              </>
+                            ) : (
+                              item
+                            )}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  )}
                 </li>
               ))}
             </ul>
