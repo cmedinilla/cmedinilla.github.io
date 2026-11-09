@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "src/components/resumeCompact.jsx"
+        ],
+        "createdAt": "2026-11-09T19:12:37.513Z",
+        "reason": "Claude: flat text-indigo-700 (no gradient) matches the existing resume.jsx accent color for consistency"
+      }
+    ]
+  }
+}
