@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
+import ResumeCompact from "./resumeCompact";
 
 function ResumeContent({ data }) {
   return (
@@ -131,9 +132,22 @@ export default function Resume({ data }) {
     documentTitle: "Christian_Medinilla_Resume",
   });
 
+  const compactRef = useRef();
+  const handlePrintCompact = useReactToPrint({
+    contentRef: compactRef,
+    documentTitle: "Christian_Medinilla_Resume_OnePage",
+    pageStyle: "@page { size: letter; margin: 0.4in; }",
+  });
+
   return (
     <div className="py-6">
-      <div className="flex justify-end mb-4">
+      <div className="flex justify-end gap-2 mb-4">
+        <button
+          onClick={handlePrintCompact}
+          className="px-4 py-2 bg-white text-indigo-700 border border-indigo-600 rounded-lg shadow hover:bg-indigo-50"
+        >
+          Print 1-page PDF
+        </button>
         <button
           onClick={handlePrint}
           className="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700"
@@ -143,6 +157,9 @@ export default function Resume({ data }) {
       </div>
       <div ref={componentRef}>
         <ResumeContent data={data} />
+      </div>
+      <div className="hidden">
+        <ResumeCompact ref={compactRef} data={data} />
       </div>
     </div>
   );
